@@ -1,0 +1,88 @@
+* {
+	font: 100%/1.73 Lucida Grande, sans-serif;
+	line-height: 1.73;
+}
+
+
+@media only screen and (min-device-width : 768px) {
+}
+
+
+.container {
+	max-width: 1024px;
+}
+
+
+/* Header */
+h1 {
+	color: #666;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 35px
+}
+
+
+/* Content */
+.row {
+	display: flex;
+}
+
+
+h2 {
+	font-size: 24px;
+	color: #f07c17;
+	padding-bottom: 10px;
+}
+
+
+.col-md-5 {
+	margin-left: 15px;
+	margin-top: 27px;
+	padding: 0;
+}
+
+
+.image-responsive {
+	max-width: 375px;
+	max-height: 375px;
+}
+
+
+/*Piazza comment from 11-13-14 says to use 30px padding for this box and then adjust margins as necessary*/
+div.main-features {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #cccccc;
+	max-width: 375px;
+}
+
+
+.col-md-7 {
+	padding: 0;
+	margin-top: 20px;
+}
+
+
+.box-head {
+	margin-top: 35px;
+	margin-left: 30px;
+	margin-bottom: 43px;
+}
+
+
+ul {
+	color: #666666;
+	margin-left: 30px;
+}
+
+
+li {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+
+p {
+	font-size: 17px;
+	color: #666;
+}
